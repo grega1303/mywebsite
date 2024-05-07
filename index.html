@@ -1,60 +1,275 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greg's Website</title>
+
+    <title>Gregory Aivaliotis' Website</title>
+
     <style>
-        /* CSS Styles */
+
         body {
-            font-family: Arial, sans-serif;
+
+            font-family: 'Arial', sans-serif;
+
             margin: 0;
+
             padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 20px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        nav {
+
             background-color: #f4f4f4;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            text-decoration: none;
+
             color: #333;
-            margin: 0 10px;
+
+            text-align: center; /* Centers text in the body element */
+
         }
+
+        header, footer {
+
+            background-color: #007BFF;
+
+            color: white;
+
+            padding: 10px 20px;
+
+        }
+
+        main {
+
+            padding: 20px;
+
+        }
+
+        section {
+
+            display: none; /* Hide all sections by default */
+
+            margin: 20px auto; /* Centers sections and adds vertical spacing */
+
+            padding: 10px;
+
+            background-color: white;
+
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+            width: 80%; /* Controls width of the sections */
+
+            border-radius: 8px; /* Rounded corners for sections */
+
+        }
+
+        h1, h2 {
+
+            font-weight: normal;
+
+        }
+
+        footer {
+
+            text-align: center;
+
+        }
+
+        section img {
+
+            max-width: 100%;
+
+            height: auto;
+
+            display: block;
+
+            margin: 0 auto;
+
+        }
+
+        nav {
+
+            background-color: #333;
+
+            color: white;
+
+            padding: 10px 0;
+
+        }
+
+        nav ul {
+
+            list-style-type: none;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+        nav ul li {
+
+            display: inline;
+
+            margin-right: 20px;
+
+        }
+
+        nav ul li a {
+
+            text-decoration: none;
+
+            color: white;
+
+            font-weight: bold;
+
+        }
+
+       
+
+        /* Add space between paragraphs */
+
+        #links p {
+
+            margin-bottom: 10px; /* Adjust as needed */
+
+        }
+
+ 
+
+        /* Spread out links in the links section */
+
+        #links a {
+
+            margin-right: 10px; /* Adjust as needed */
+
+        }
+
     </style>
+
 </head>
+
 <body>
 
-<header>
-    <h1>My name is Greg This is my website</h1>
-</header>
+    <header>
 
-<nav>
-    <a href="about.html">About Me</a>
-    <a href="school.html">School</a>
-    <a href="activities.html">Activities</a>
-    <a href="contact.html">Contact</a>
-    <a href="links.html">My Links</a>
-</nav>
+        <h1>Hi, my name is Gregory and this is my Website...</h1>
 
-<footer>
-    &copy; 2024 Greg
-</footer>
+        <nav>
+
+            <ul>
+
+                <li><a href="#about">About Me</a></li>
+
+                <li><a href="#school">School</a></li>
+
+                <li><a href="#fun">Fun Activities</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+                <li><a href="#links">My Links</a></li> <!-- New link in the navigation -->
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="about" style="display: block;"> <!-- Display the first section by default -->
+
+            <h2>About Me</h2>
+
+            <p>I currently go to Fredonia University, and I am a graduate of St. Dominic High School. I am going to school for Computer Science. My interest in computer science as a whole has driven me to finish more advanced courses in C++, C#, and also in cybersecurity, focusing on networking with routers and switches, and a ton of other security essentials. I have also completed intro courses in Python, HTML, Assembly Language, and some classes focusing on solely data structures, which have all enhanced my programming skills</p>
+
+            <p>I really do enjoy the challenge of problem solving that coding offers. My daily drive of an hour just to school has built me a strong work ethic.</p>
+
+        </section>
+
+        <section id="involvement">
+
+            <h2>How I Have Been Involved</h2>
+
+            <p>During high school, I was the captain of the soccer team and an active member of the AV club, where I gained both leadership and technical skills.</p>
+
+        </section>
+
+        <section id="fun">
+
+            <h2>What I Do for Fun</h2>
+
+            <p>I enjoy doing tons of things from DoorDashing to playing video games. I'm also passionate about programming, whether that's for schoolwork or just as a hobby. I also spend some time working on my car, mostly trying to keep it from having issues on my drive to school but I do enjoy learning how to do it all myself!</p>
+
+        </section>
+
+        <section id="contact">
+
+            <h2>Contact Information</h2>
+
+            <p>School Email: finn1817@fredonia.edu</p>
+
+            <p>Cell Phone: (***)***-**** </p>
+
+            <p>If I ever decide to add anything else it will be listed right here!</p>
+
+        </section>
+
+        <section id="links"> <!-- New section for your links -->
+
+            <h2>These are some of my websites:</h2>
+
+            <p><a href="https://finn1817.github.io/Resume-Website/" target="_blank" style="background-color: #007BFF; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">My Resume</a></p>
+
+            <br> </br>
+
+            <p><a href="https://finn1817.github.io/My-Calculator/" target="_blank" style="background-color: #007BFF; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">My Calculator</a></p>
+
+            <br> </br>
+
+            <p><a href="https://finn1817.github.io/LaxTimer/" target="_blank" style="background-color: #007BFF; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">My Lacrosse Timer (Computer Edition)</a></p>
+
+            <br> </br>
+
+            <p><a href="https://finn1817.github.io/Lax-Timer-Phone-/" target="_blank" style="background-color: #007BFF; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">My Lacrosse Timer (Phone Edition)</a></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>Thank you for visiting my website!</p>
+
+        <p>&copy; 2024 Dan Finn | All rights reserved</p>
+
+    </footer>
+
+    <script>
+
+        // JavaScript to show/hide sections based on navigation clicks
+
+        document.querySelectorAll('nav ul li a').forEach(link => {
+
+            link.addEventListener('click', function(event) {
+
+                event.preventDefault(); // Prevent default anchor behavior
+
+                const targetId = this.getAttribute('href').substring(1); // Get target section id
+
+                document.querySelectorAll('section').forEach(section => {
+
+                    section.style.display = 'none'; // Hide all sections
+
+                });
+
+                document.getElementById(targetId).style.display = 'block'; // Show target section
+
+            });
+
+        });
+
+    </script>
 
 </body>
+
 </html>
